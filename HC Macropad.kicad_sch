@@ -817,108 +817,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_marbastlib-mx:MX_SK6812MINI-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2784,31 +2682,6 @@
 		)
 		(uuid 563dff82-0cdc-49bf-a840-3154ce40e053)
 	)
-	(rectangle
-		(start 127 139.7)
-		(end 165.1 158.75)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cb6c943c-16cc-457f-b5eb-1a40532a10d1)
-	)
-	(text "Plate Screws"
-		(exclude_from_sim no)
-		(at 135.128 138.176 0)
-		(effects
-			(font
-				(face "Comic Code Medium")
-				(size 1.5 1.5)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "204a5322-8f89-496d-8cf1-49dc46ad1876")
-	)
 	(text "Switch Matrix\n"
 		(exclude_from_sim no)
 		(at 30.226 102.616 0)
@@ -3111,73 +2984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 154.94 148.59 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "19017d8d-ca43-4c2b-8f86-8c4ef5e84a7b")
-		(property "Reference" "H3"
-			(at 153.924 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 157.48 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 154.94 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba7a4e69-3231-4548-8ece-fdbb2e8390c5")
-		)
-		(instances
-			(project "HC Macropad"
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 107.95 69.85 0)
 		(unit 1)
@@ -3245,72 +3051,6 @@
 			(project ""
 				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
 					(reference "PK_RGB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fa0e874-cd93-4c95-8e33-e7cad31fe332")
-		(property "Reference" "#PWR09"
-			(at 142.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0107f635-6823-4d5e-ac7f-7b835b24a240")
-		)
-		(instances
-			(project "HC Macropad"
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3396,72 +3136,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24c08488-fe7c-4d11-a2f3-f50277c21c6f")
-		(property "Reference" "#PWR011"
-			(at 154.94 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d0a1f45-da0a-48f4-a9a1-06a7c9a434c6")
-		)
-		(instances
-			(project "HC Macropad"
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 82.55 69.85 0)
 		(unit 1)
@@ -3529,72 +3203,6 @@
 			(project ""
 				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
 					(reference "PK_RGB0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 148.59 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31d4cf25-c84f-4561-b2f0-6a8e8a1bf1c0")
-		(property "Reference" "#PWR010"
-			(at 148.59 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc769567-e652-4d14-bc78-73ec5bb2f973")
-		)
-		(instances
-			(project "HC Macropad"
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3962,72 +3570,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59ea5712-3088-4d6d-9076-ebd915c8b6f7")
-		(property "Reference" "#PWR08"
-			(at 135.89 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b94e0ab-9eb7-4885-95c6-69ab5a874af5")
-		)
-		(instances
-			(project ""
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
 		(at 158.75 44.45 0)
 		(unit 1)
@@ -4267,73 +3809,6 @@
 			(project "HC Macropad"
 				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
 					(reference "D_R0C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 148.59 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "667be96e-4a63-4eee-8da2-6807890b46eb")
-		(property "Reference" "H0"
-			(at 134.874 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 138.43 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 135.89 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f9f8ae2-a9f3-4cc3-83d2-65b7bec0d33a")
-		)
-		(instances
-			(project ""
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "H0")
 					(unit 1)
 				)
 			)
@@ -4652,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 69.85 154.94 0)
 			(effects
 				(font
@@ -4805,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 44.45 154.94 0)
 			(effects
 				(font
@@ -4872,7 +4347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 69.85 116.84 0)
 			(effects
 				(font
@@ -4909,73 +4384,6 @@
 			(project ""
 				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
 					(reference "SW_R0C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 148.59 148.59 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e72c6bf-cfa4-4031-8251-039142003e7c")
-		(property "Reference" "H2"
-			(at 147.574 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 148.59 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17ebd6b7-9f64-48e8-80f0-0fa75668bdbb")
-		)
-		(instances
-			(project "HC Macropad"
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5092,7 +4500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -5232,7 +4640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 95.25 154.94 0)
 			(effects
 				(font
@@ -5365,7 +4773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 44.45 116.84 0)
 			(effects
 				(font
@@ -5925,73 +5333,6 @@
 			(project "HC Macropad"
 				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 142.24 148.59 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4367ecd-c6eb-4b35-b9da-b8d0b3283d00")
-		(property "Reference" "H1"
-			(at 141.224 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 144.78 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 142.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b11ec08-961e-4991-95df-63026577e8c7")
-		)
-		(instances
-			(project "HC Macropad"
-				(path "/7d7a94c4-37e2-4624-8c07-2c32a1a197ea"
-					(reference "H1")
 					(unit 1)
 				)
 			)
