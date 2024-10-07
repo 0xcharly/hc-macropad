@@ -3225,8 +3225,8 @@
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 67.564 44.45 90)
+		(property "Value" "1k"
+			(at 67.31 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
