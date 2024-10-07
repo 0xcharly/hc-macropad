@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "HC Macropad")
-		(date "2024-09-29")
-		(rev "0.1.1")
+		(date "2024-10-07")
+		(rev "0.1.2")
 		(company "Google")
 		(comment 1 "Licensed under CERN-OHL-W v2")
 	)
