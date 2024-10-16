@@ -44,6 +44,8 @@ for more information.
 
 ## First prototypes
 
+The encoder case footprint needs some work…
+
 ![First prototypes](.assets/2024-10-16.hc-macropad-first-prototypes.jpg)
 
 ## Credits
