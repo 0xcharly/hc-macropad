@@ -42,6 +42,10 @@ See the
 [README.md](https://github.com/0xcharly/qmk_firmware/blob/hc-macropad/keyboards/hc_macropad/readme.md)
 for more information.
 
+## First prototypes
+
+![First prototypes](.assets/2024-10-16.hc-macropad-first-prototypes.jpg)
+
 ## Credits
 
 The PCB design, and specifically the RP2040-based controller is based off the
