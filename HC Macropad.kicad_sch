@@ -7,7 +7,7 @@
 	(title_block
 		(title "HC Macropad")
 		(date "2024-10-07")
-		(rev "0.1.2")
+		(rev "0.1.3")
 		(company "Google")
 		(comment 1 "Licensed under CERN-OHL-W v2")
 	)
@@ -3035,6 +3035,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "94893ee9-8bc4-4eba-aa30-5898637b35f5")
 		)
@@ -3179,6 +3188,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 82.55 69.85 0)
 			(effects
 				(font
@@ -3336,6 +3354,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "6ee631b7-5b69-435e-98aa-69a4372f982d")
 		)
@@ -3401,6 +3428,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 133.35 69.85 0)
 			(effects
 				(font
@@ -3548,6 +3584,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 209.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "030ea710-0cf9-4d75-9123-edce3c81b068")
 		)
@@ -3613,6 +3658,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 158.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -3713,6 +3767,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C571353"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71a1cc18-412d-462d-a707-b015ffdbb18e")
 		)
@@ -3799,6 +3862,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C571353"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f438a33-18a6-494c-a8a8-a54523104f6d")
 		)
@@ -3819,7 +3891,7 @@
 		(at 158.75 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6746d805-19c4-4b14-94de-5480a3928564")
@@ -3942,6 +4014,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "9d64a2b7-d6cf-423a-b515-f16b251e8675")
 		)
@@ -4007,6 +4088,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 82.55 44.45 0)
 			(effects
 				(font
@@ -4107,7 +4197,7 @@
 		(at 69.85 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "87376f93-2c26-480a-9aa2-9ff06e8e55ea")
@@ -4240,6 +4330,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C571353"
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4721821-55f7-4b21-b5c3-13c3c30974bb")
 		)
@@ -4260,7 +4359,7 @@
 		(at 44.45 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8eecdce5-d81d-49e7-86ac-ecfc1db03d8f")
@@ -4327,7 +4426,7 @@
 		(at 69.85 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "99d81c27-309b-48b3-b9a2-21ff40612253")
@@ -4460,6 +4559,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C571353"
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58d19bd0-24bd-41a4-85de-87982c0782b2")
 		)
@@ -4480,7 +4588,7 @@
 		(at 95.25 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9271974-2a9a-4ad1-bbf9-0e11cc2cde46")
@@ -4594,6 +4702,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a7850e8-68a4-4d8e-b7ce-ddd47f8009ef")
 		)
@@ -4620,7 +4737,7 @@
 		(at 95.25 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b1850f18-4ac3-411a-b924-412e5aac85c1")
@@ -4753,7 +4870,7 @@
 		(at 44.45 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b82986-9a69-4dd9-a6c8-3541978b4868")
@@ -4886,6 +5003,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C571353"
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fbe1112e-53bc-4e15-ad9e-407436adaaad")
 		)
@@ -4945,6 +5071,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 184.15 69.85 0)
 			(effects
 				(font
@@ -5026,6 +5161,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 184.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b0a335e6-f3fa-425f-b712-1a90b92a2675")
 		)
@@ -5091,6 +5235,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 209.55 44.45 0)
 			(effects
 				(font
@@ -5249,6 +5402,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C571353"
 			(at 78.74 130.81 0)
 			(effects
 				(font
